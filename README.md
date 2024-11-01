@@ -165,10 +165,6 @@ The statistics on the risk dimensions and number of test prompts in one language
 <h2 id="S-Eval">📖 Risk Taxonomy</h2>
 Our risk taxonomy has a structured hierarchy with four levels, comprising 8 risk dimensions and a total of 102 risk subcategories. The first-level risk dimensions and second-level risk categories are shownin the table above.
 
-#<div align="center">
-#<img src="assets/risk_taxonomy.png" width="700" alt="tax_png">
-#</div>
-
 <h2 id="S-Eval">⚖️ Safety Critique Model</h2>
 To validate the efficacy of our safety critique model, we construct a test suite by collecting 1000 Chinese QA pairs and 1000 English QA pairs from Qwen-7B-Chat with manual annotation. 
 We further compare our safety critique model with three baseline methods: <i>Rule Matching</i>, <i>GPT-based</i> and <i>LLaMA-Guard-2</i>. 
